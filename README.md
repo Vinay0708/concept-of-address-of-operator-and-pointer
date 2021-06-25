@@ -1,0 +1,8 @@
+# concept-of-address-of-operator-and-pointer
+#include <stdio.h>
+int main()
+{
+    int a=10;
+    printf("%d ",*(&a));
+    printf("%d",*&*&a);
+}
